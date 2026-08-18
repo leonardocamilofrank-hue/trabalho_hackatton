@@ -15,6 +15,7 @@ def conectar():
         print("Erro ao conectar ao MySQL:", erro)
         return None
 
+from mysql import  *
 from datetime import date
 
 
